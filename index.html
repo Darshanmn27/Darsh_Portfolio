@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Darshan MN - Software Engineer specializing in full-stack development and creative solutions. Check out my portfolio and projects.">
+    <meta name="keywords" content="Software Engineer, Full Stack Developer, Portfolio, Web Development, Darshan MN">
+    <meta name="author" content="Darshan MN">
+    <meta property="og:title" content="Darshan MN - Software Engineer">
+    <meta property="og:description" content="Portfolio website showcasing my skills, projects, and experience in software development.">
+    <meta property="og:image" content="1sj21cs034.jpg">
+    <meta property="og:url" content="https://your-portfolio-url.com">
+    <meta name="theme-color" content="#0a192f">
+    
+    <title>Darshan MN - Software Engineer</title>
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="style.css" as="style">
+    <link rel="preload" href="script.js" as="script">
+    <link rel="preload" href="1sj21cs034.jpg" as="image">
+    
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="1sj21cs034.jpg">
+</head>
+
+<body>
+    <!-- Side Navigation -->
+    <nav class="side-nav">
+        <div class="profile">
+            <img src="1sj21cs034.jpg" alt="Darshan MN" class="profile-img">
+            <h2>Darshan MN</h2>
+            <p>Software Engineer</p>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#home" class="active"><i class="fas fa-home"></i>Home</a></li>
+            <li><a href="#about"><i class="fas fa-user"></i>About</a></li>
+            <li><a href="#skills"><i class="fas fa-code"></i>Skills</a></li>
+            <li><a href="#projects"><i class="fas fa-laptop-code"></i>Projects</a></li>
+            <li><a href="#certifications"><i class="fas fa-certificate"></i>Certifications</a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i>Contact</a></li>
+            </ul>
+
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="hero-header">
+                    <div class="hero-text">
+                        <h1 class="animated-heading">
+                            <span class="greeting">Hi, I'm</span>
+                            <span class="name">Darshan MN</span>
+                        </h1>
+                        <div class="typewriter">
+                            <span id="typed-text"></span><span class="cursor"></span>
+                        </div>
+                        <p class="hero-description">
+                            Passionate software developer currently pursuing Bachelor's in Computer Science & 
+                            Engineering at SJC Institute of Technology. Specializing in full-stack development and 
+                            creative solutions.
+                        </p>
+            </div>
+        </div>
+
+                <div class="cta-buttons">
+                    <a href="Darshan_resume.pdf" class="btn btn-primary" download>
+                        <i class="fas fa-download"></i> Download CV
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-paper-plane"></i> Contact Me
+                    </a>
+                </div>
+
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Technologies</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">3+</span>
+                        <span class="stat-label">Certifications</span>
+                    </div>
+            </div>
+    </div>
+</section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate Software Engineer with experience in creating dynamic and responsive web applications. I enjoy turning complex problems into simple, beautiful, and intuitive designs.</p>
+                    
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <h3>Education</h3>
+                                <p>B.E. in Computer Science</p>
+                                <p>SJC Institute of Technology</p>
+                                <p>2021 - 2025</p>
+                            </div>
+                        </div>
+
+                        <div class="detail-item">
+                            <i class="fas fa-code"></i>
+                            <div>
+                                <h3>Development</h3>
+                                <p>Full Stack Developer</p>
+                </div>
+            </div>
+
+                        <div class="detail-item">
+                            <i class="fas fa-location-dot"></i>
+                            <div>
+                                <h3>Location</h3>
+                                <p>Bangalore, India</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-container">
+                <!-- Programming Languages -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                    <div class="skill-tags">
+                        <span>Java</span>
+                        <span>Python</span>
+                        <span>JavaScript</span>
+                        <span>HTML5/CSS3</span>
+                    </div>
+                </div>
+
+                <!-- Frameworks -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-layer-group"></i> Frameworks</h3>
+                    <div class="skill-tags">
+                        <span>Spring Boot</span>
+                        <span>Hibernate</span>
+                        <span>Django</span>
+                        <span>React.js</span>
+                    </div>
+                </div>
+
+                <!-- Databases -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Databases</h3>
+                    <div class="skill-tags">
+                        <span>MySQL</span>
+                        <span>MongoDB</span>
+                        <span>PostgreSQL</span>
+                    </div>
+                </div>
+
+                <!-- Tools & Technologies -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools & Technologies</h3>
+                    <div class="skill-tags">
+                        <span>Git</span>
+                        <span>VS Code</span>
+                        <span>Eclipse</span>
+                        <span>Cursor</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <!-- Hospital Management System -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://fastamall.com/wp-content/uploads/2022/11/hospital-mgt-sys.png" alt="Hospital Management System">
+                    </div>
+                    <div class="project-content">
+                            <h3>🏥 Hospital Management System</h3>
+                        <p class="project-description">
+                            Web-based system using <b>Django</b> to manage hospital operations, patient records, and billing.
+                        </p>
+                        <div class="project-features">
+                            <ul>
+                                <li>✅ Patient & Staff Management</li>
+                                <li>✅ Appointment Scheduling</li>
+                                <li>✅ Secure Authentication System</li>
+                            </ul>
+                        </div>
+                        <div class="tech-stack">
+                            <h4>Tech Stack:</h4>
+                            <div class="tech-tags">
+                                <span>Django</span>
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>SQLite</span>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Darshanmn27/Hospital_Management" target="_blank" class="btn">
+                                🔗 GitHub
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+        
+                <!-- Face Recognition Attendance -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://cdn4.geckoandfly.com/wp-content/uploads/2017/04/biometrics.jpg"" alt="Face Recognition System">
+                    </div>
+                    <div class="project-content">
+                            <h3>📸 Face Recognition Attendance</h3>
+                        <p class="project-description">
+                            AI-based attendance system using <b>OpenCV</b> and <b>Python</b> for automation.
+                        </p>
+                        <div class="project-features">
+                            <ul>
+                                <li>✅ Real-time Face Recognition</li>
+                                <li>✅ Automatic Attendance Logging</li>
+                                <li>✅ Secure & Fast Processing</li>
+                            </ul>
+                        </div>
+                        <div class="tech-stack">
+                            <h4>Tech Stack:</h4>
+                            <div class="tech-tags">
+                                <span>Python</span>
+                                <span>OpenCV</span>
+                                <span>NumPy</span>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Darshanmn27/Face_Recognization_attendance" target="_blank" class="btn">
+                                🔗 GitHub
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+        
+                <!-- Student Result Management -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://phpgurukul.com/wp-content/uploads/2017/08/dashboar-1024x471.png" alt="Student Result Management">
+                    </div>
+                    <div class="project-content">
+                            <h3>📊 Student Result Management</h3>
+                        <p class="project-description">
+                            A web app for managing student records and generating results using <b>PHP</b> and <b>MySQL</b>.
+                        </p>
+                        <div class="project-features">
+                            <ul>
+                                <li>✅ Student & Subject Management</li>
+                                <li>✅ Automatic Result Calculation</li>
+                                <li>✅ Secure Login System</li>
+                            </ul>
+                        </div>
+                        <div class="tech-stack">
+                            <h4>Tech Stack:</h4>
+                            <div class="tech-tags">
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Darshanmn27/Student-Result-Management-System" target="_blank" class="btn">
+                                🔗 GitHub
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+        
+                    <!-- Personal Portfolio -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://mir-s3-cdn-cf.behance.net/projects/404/69b0d3181070707.Y3JvcCwxMzA5LDEwMjQsNjQsMA.png" alt="Personal Portfolio">
+                    </div>
+                    <div class="project-content">
+                            <h3>💼 Personal Portfolio</h3>
+                        <p class="project-description">
+                            A fully responsive portfolio website built with <b>HTML, CSS, and JavaScript</b> to showcase my work.
+                        </p>
+                        <div class="project-features">
+                            <ul>
+                                <li>✅ Modern & Interactive UI/UX</li>
+                                <li>✅ Mobile-friendly & Responsive</li>
+                                <li>✅ Smooth Animations & Transitions</li>
+                            </ul>
+                        </div>
+                        <div class="tech-stack">
+                            <h4>Tech Stack:</h4>
+                            <div class="tech-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Darshanmn27/pf" target="_blank" class="btn">
+                                🔗 GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+                <!-- Certifications Section -->
+        <section id="certifications" class="section">
+        <h2 class="section-title">Certifications</h2>
+            <div class="certifications-grid">
+                <!-- Java Programming -->
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fab fa-java"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Java Programming</h3>
+                        <p class="cert-description">
+                            Certified in Java Programming, demonstrating proficiency in core Java concepts.
+                        </p>
+                    <a href="https://www.udemy.com/certificate/UC-da130080-0aef-4945-bbe8-aa20dc3ca70a/" 
+                           target="_blank" class="cert-link">View Certificate</a>
+                    </div>
+                </div>
+
+                <!-- Web Design -->
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Responsive Web Design</h3>
+                        <p class="cert-description">
+                            Master the skills to build visually stunning, user-friendly websites that adapt seamlessly across all devices.
+                        </p>
+                    <a href="https://www.freecodecamp.org/certification/Darshan2027/responsive-web-design" 
+                           target="_blank" class="cert-link">View Certificate</a>
+                    </div>
+                </div>
+
+                <!-- SQL -->
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>SQL and Database</h3>
+                        <p class="cert-description">
+                            Develop expertise in SQL and database management, mastering the art of designing, managing, and optimizing databases.
+                        </p>
+                    <a href="https://github.com/Darshanmn27/Certifications/blob/d825e29b1a5157f7f71d2ad7410beca0b2241c06/Database_SQL.pdf" 
+                           target="_blank" class="cert-link">View Certificate</a>
+                    </div>
+                </div>
+
+                <!-- AI -->
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Artificial Intelligence</h3>
+                        <p class="cert-description">
+                            Unlock the world of AI, exploring its fundamental concepts and applications. Master AI technologies and elevate your problem-solving skills.
+                        </p>
+                    <a href="https://github.com/Darshanmn27/Certifications/blob/d825e29b1a5157f7f71d2ad7410beca0b2241c06/Artificial_Intelligence.pdf" 
+                           target="_blank" class="cert-link">View Certificate</a>
+                    </div>
+                </div>
+    </div>
+</section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="contact-header">
+                <div class="contact-title-wrapper">
+                    <h2 class="contact-title">Get in Touch</h2>
+                    <div class="contact-subtitle">Let's create something amazing together!</div>
+                </div>
+                <div class="contact-decoration">
+                    <div class="contact-circles">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-container">
+                <form id="contact-form" class="contact-form" method="POST" action="/submit-contact">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <label for="name">Your Name</label>
+                        <span class="error-message"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <label for="email">Your Email</label>
+                        <span class="error-message"></span>
+                    </div>
+                    
+                    <div class="form-group message-group">
+                        <textarea name="message" placeholder="Your Message" required></textarea>
+                        <label for="message">Your Message</label>
+                        <span class="error-message"></span>
+                        <div class="char-count">0/500</div>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">
+                        <span class="btn-text"> <style color: #999;;></style>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+
+                <!-- Success/Error Messages Container -->
+                <div class="form-messages"></div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="social-icons">
+                <a href="tel:+91XXXXXXXXXX" class="social-icon" title="Phone">
+                    <i class="fas fa-phone"></i>
+                </a>
+                <a href="mailto:darshanmn2327@gmail.com" class="social-icon" title="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="#" class="social-icon" title="Location">
+                    <i class="fas fa-map-marker-alt"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/darshan-m-n-7546b632b/" class="social-icon" title="LinkedIn" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/Darshanmn27" class="social-icon" title="GitHub" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <p class="footer-text">Thank you for visiting my portfolio!</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+    document.getElementById('contact-form').addEventListener('submit', async (e) => {
+        e.preventDefault();
+        
+        const formData = new FormData(e.target);
+        
+        try {
+            const response = await fetch('/submit-contact', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
+                body: new URLSearchParams(formData)
+            });
+            
+            const result = await response.json();
+            if (result.success) {
+                alert('Message sent successfully!');
+                e.target.reset();
+            } else {
+                alert('Failed to send message. Please try again.');
+            }
+        } catch (error) {
+            console.error('Error:', error);
+            alert('An error occurred. Please try again.');
+        }
+    });
+    </script>
+</body>
+
+</html>
